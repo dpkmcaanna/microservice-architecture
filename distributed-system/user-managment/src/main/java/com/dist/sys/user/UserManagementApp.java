@@ -1,13 +1,12 @@
-package com.dpk.distributed.system;
+package com.dist.sys.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DistributedSystemApplication {
-
+public class UserManagementApp {
+	
 	public static void main(String[] args) {
-		SpringApplication.run(DistributedSystemApplication.class, args);
+		SpringApplication.run(UserManagementApp.class, args);
 	}
-
 }
